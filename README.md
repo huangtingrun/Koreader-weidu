@@ -1,2 +1,13 @@
 # Koreader-weidu
 Koreader 阅读器的微信读书插件，基于weread.koplugin的魔改
+
+# 登录与认证
+插件只支持微信扫码登录，不需要创建或维护配置文件。
+
+扫码前需要先为账号开通微信读书 Skill：
+
+手机打开微信读书 App。
+进入 我 → 设置 → 微信读书 Skill。
+点击 获取 API Key，确认已经生成个人官方 API Key。
+在 KOReader 打开 工具 → 微信读书 → 微信扫码登录。
+使用微信扫码并在手机端确认；若手机显示四位验证码，请在 KOReader 中输入。
